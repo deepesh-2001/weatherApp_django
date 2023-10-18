@@ -11,12 +11,12 @@ def home(request):
     else:
         city = 'pune'
 
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=27214aa6a3516670efaf95d1c941d57f'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
     PARAMS = {'units':'metric' }
 
-    API_KEY = 'AIzaSyD5evea2Ajou5hSrjAvZtbPEj5sgDvTZ1k'
+    API_KEY = ''
 
-    SEARCH_ENGINE_ID='64414ca75f70b4ea7'
+    SEARCH_ENGINE_ID=''
 
     query= city + "1920x1080"
     page=1
